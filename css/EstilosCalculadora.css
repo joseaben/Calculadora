@@ -1,43 +1,18 @@
-body{
-  text-align: center;
-}
-input[type = button]{
-  color: black;
-  padding: 15px 40px;
-  margin: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border: 1px solid;
-  cursor: pointer;
+.btn-primary{
+  margin: 5px 0px;
   outline: none;
-  width:100px;
 }
-input[type = button]:active{
-  background-color: #585858 !important;
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
 }
 input[type = text]{
-    width:350px;
-    padding: 15px 30px;
-    font-size: 40px;
-    background-color: #000000;
+    font-size: 30px;
     text-align: right;
-    color: white;
+    color: black;
 
-}
-#contenedor{
-  width: 420px;
-  margin: 15px auto;
-  border: 1px solid;
-}
-#resultado{
-  width: 400px;
-  background-color: #FF8000;
-}
-.operadores{
-  background-color: #FF8000;
-}
-.numeros{
-  background-color: #E6E6E6;
 }
